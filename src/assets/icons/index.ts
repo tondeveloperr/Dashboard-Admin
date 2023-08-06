@@ -21,6 +21,11 @@ import settings from "./settings.svg";
 
 import kartono from "./kartono.png";
 
+import userIcon from "./userIcon.svg";
+import productIcon from "./productIcon.svg";
+import revenueIcon from "./revenueIcon.svg";
+import conversionIcon from "./conversionIcon.svg";
+
 export {
   home,
   user,
@@ -42,4 +47,8 @@ export {
   notif,
   settings,
   kartono,
+  userIcon,
+  productIcon,
+  revenueIcon,
+  conversionIcon,
 };
