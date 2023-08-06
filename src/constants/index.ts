@@ -5,6 +5,8 @@ import {
   chartBoxProduct,
   chartBoxRevenue,
   chartBoxConversion,
+  barChartBoxRevenue,
+  barChartBoxVisit,
 } from "./Dummy";
 
 export {
@@ -14,4 +16,6 @@ export {
   chartBoxProduct,
   chartBoxRevenue,
   chartBoxConversion,
+  barChartBoxRevenue,
+  barChartBoxVisit,
 };
