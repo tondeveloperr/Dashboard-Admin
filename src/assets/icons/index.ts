@@ -26,6 +26,10 @@ import productIcon from "./productIcon.svg";
 import revenueIcon from "./revenueIcon.svg";
 import conversionIcon from "./conversionIcon.svg";
 
+import avatarDefault from "./noavatar.png";
+import viewIcon from "./view.svg";
+import deleteIcon from "./delete.svg";
+
 export {
   home,
   user,
@@ -51,4 +55,7 @@ export {
   productIcon,
   revenueIcon,
   conversionIcon,
+  avatarDefault,
+  viewIcon,
+  deleteIcon,
 };
