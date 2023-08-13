@@ -6,6 +6,7 @@ import ChartBox from "./chartBox/ChartBox";
 import BarChartBox from "./barChartBox/BarChartBox";
 import PieChartBox from "./pieChartBox/PieChartBox";
 import BigChartBox from "./bigChartBox/BigChartBox";
+import DataTable from "./dataTable/DataTable";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   BarChartBox,
   PieChartBox,
   BigChartBox,
+  DataTable,
 };
