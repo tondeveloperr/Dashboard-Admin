@@ -17,7 +17,7 @@ const DataTable = (props: Props) => {
   const actionColumn: GridColDef = {
     field: "action",
     headerName: "Action",
-    width: 100,
+    width: 150,
     renderCell: (params) => {
       return (
         <div className="action">
@@ -40,7 +40,7 @@ const DataTable = (props: Props) => {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 8,
+              pageSize: 10,
             },
           },
         }}
