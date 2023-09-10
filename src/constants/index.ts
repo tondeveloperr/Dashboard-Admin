@@ -8,6 +8,7 @@ import {
   barChartBoxRevenue,
   barChartBoxVisit,
   userRows,
+  products,
 } from "./Dummy";
 
 export {
@@ -20,4 +21,5 @@ export {
   barChartBoxRevenue,
   barChartBoxVisit,
   userRows,
+  products,
 };
