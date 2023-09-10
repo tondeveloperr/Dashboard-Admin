@@ -9,6 +9,7 @@
 body,
 html {
   height: 100%;
+  background-color: green;
 }
 
 a {
@@ -21,6 +22,11 @@ a {
   background-color: $main-bg;
   color: $main-color;
   overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // gap: 20px;
 
   .container {
     display: flex;
