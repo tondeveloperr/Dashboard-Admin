@@ -7,13 +7,15 @@ function App() {
   const Layout = () => {
     return (
       <div className="main">
-        <Navbar />
-        <div className="container">
-          <div className="menu-container">
-            <Menu />
-          </div>
-          <div className="content-container">
-            <Outlet />
+        <div>
+          <Navbar />
+          <div className="container">
+            <div className="menu-container">
+              <Menu />
+            </div>
+            <div className="content-container">
+              <Outlet />
+            </div>
           </div>
         </div>
         <Footer />
