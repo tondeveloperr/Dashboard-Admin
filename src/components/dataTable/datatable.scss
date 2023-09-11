@@ -1,10 +1,21 @@
+@import "./../../styles/responsive.scss";
+
 .datatable {
   .data-grid {
     background-color: white;
     padding: 20px;
+    @include md {
+      padding: 5px;
+    }
 
     .MuiDataGrid-toolbarContainer {
       flex-direction: row-reverse;
+
+      .MuiInputBase-root {
+        @include sm {
+          // width: 100px;
+        }
+      }
     }
 
     .img-user {

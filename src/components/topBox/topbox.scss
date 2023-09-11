@@ -1,8 +1,16 @@
+@import "./../../styles/responsive.scss";
+
 .topbox {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  h1 {
+    @include xxl {
+      font-size: 24px;
+    }
+  }
 
   .lists {
     height: 85%;
@@ -25,6 +33,10 @@
           height: 40px;
           border-radius: 50%;
           object-fit: cover;
+
+          @include sm {
+            display: none;
+          }
         }
 
         .user-info {
@@ -40,11 +52,10 @@
             font-size: 12px;
           }
         }
-
-        .amount {
-          font-size: 14px;
-          font-weight: 500;
-        }
+      }
+      .amount {
+        font-size: 14px;
+        font-weight: 500;
       }
     }
   }
