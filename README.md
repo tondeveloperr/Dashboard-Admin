@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Dashboard Admin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an admin dashboard project created with React, Vite, TypeScript, and SCSS. It provides a comprehensive platform for managing various aspects of an application or website. Users can efficiently control and visualize data, navigate through different sections, and interact with various features of the admin interface.
 
-Currently, two official plugins are available:
+## `Demo 👇`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://dashboard-admin-theta-fawn.vercel.app/
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React: A powerful JavaScript library for building dynamic user interfaces.
+- Vite: A fast build tool that enhances the development workflow.
+- TypeScript: A statically typed superset of JavaScript that ensures code reliability.
+- SCSS: A CSS preprocessor for crafting stylish and responsive designs.
 
-- Configure the top-level `parserOptions` property like this:
+## Local Setup:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+1. Clone this repository to your computer with the command:
+
+```
+git clone https://github.com/tondeveloperr/dashboard-admin.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Open the terminal and navigate to the project directory with:
+
+```
+cd dashboard-admin
+```
+
+3. Install dashboard-admin dependencies by running:
+
+```
+npm install
+```
+
+8. Run the dashboard-admin development server with:
+
+```
+npm run dev
+```
+
+The app will now be accessible at `http://localhost:5173`.
