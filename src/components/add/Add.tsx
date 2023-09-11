@@ -11,6 +11,8 @@ const Add = (props: Props) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    props.setOpen(false);
+
     //add new user
     // axios.post(`/api/${slug}`, {})
   };

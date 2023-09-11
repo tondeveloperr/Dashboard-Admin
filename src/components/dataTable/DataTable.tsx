@@ -11,7 +11,7 @@ type Props = {
 
 const DataTable = (props: Props) => {
   const handleDelete = (id: number) => {
-    console.log(id + "ok");
+    console.log(id + "deleted");
   };
 
   const actionColumn: GridColDef = {
@@ -33,7 +33,7 @@ const DataTable = (props: Props) => {
   };
   return (
     <div className="datatable">
-      <DataGrid
+      <DataGrid 
         className="data-grid"
         rows={props.rows}
         columns={[...props.columns, actionColumn]}
