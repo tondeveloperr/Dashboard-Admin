@@ -9,6 +9,8 @@ import {
   barChartBoxVisit,
   userRows,
   products,
+  singleUser,
+  singleProduct,
 } from "./Dummy";
 
 export {
@@ -22,4 +24,6 @@ export {
   barChartBoxVisit,
   userRows,
   products,
+  singleUser,
+  singleProduct,
 };

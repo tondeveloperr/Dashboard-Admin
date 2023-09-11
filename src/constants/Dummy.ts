@@ -447,3 +447,167 @@ export const products = [
     inStock: true,
   },
 ];
+
+export const singleUser = {
+  id: 1,
+  title: "Kartono",
+  img: kartono,
+  info: {
+    username: "kartono123",
+    fullname: "Kartono Saleh",
+    email: "kartono@gmail.com",
+    phone: "0813 8808 xxxx",
+    status: "verified",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "clicks", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        clicks: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        clicks: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        clicks: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        clicks: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        clicks: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        clicks: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        clicks: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "Kartono purchased Acer Laptop 16 KL-4804",
+      time: "3 day ago",
+    },
+    {
+      text: "Kartono added 3 items into their wishlist",
+      time: "1 week ago",
+    },
+    {
+      text: "Kartono purchased Sony Bravia KD-32w800",
+      time: "2 weeks ago",
+    },
+    {
+      text: "Kartono reviewed a product",
+      time: "1 month ago",
+    },
+    {
+      text: "Kartono added 1 items into their wishlist",
+      time: "1 month ago",
+    },
+    {
+      text: "Kartono reviewed a product",
+      time: "2 months ago",
+    },
+  ],
+};
+
+export const singleProduct = {
+  id: 10,
+  title: "Acer Laptop 16 KL-4804",
+  img: "https://venturebeat.com/wp-content/uploads/2015/07/As_AO1-131_gray_nonglare_win10_03.png?fit=1338%2C1055&strip=all",
+  info: {
+    productId: "Ps5SDF1156d",
+    color: "black",
+    price: "$599.99",
+    producer: "Acer",
+    export: "Indonesia",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "orders", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        orders: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        orders: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        orders: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        orders: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        orders: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        orders: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        orders: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "Kartono purchased Acer Laptop 16 KL-4804",
+      time: "3 day ago",
+    },
+    {
+      text: "Kartono added 3 items into their wishlist",
+      time: "1 week ago",
+    },
+    {
+      text: "Kartono purchased Sony Bravia KD-32w800",
+      time: "2 weeks ago",
+    },
+    {
+      text: "Kartono reviewed a product",
+      time: "1 month ago",
+    },
+    {
+      text: "Kartono added 1 items into their wishlist",
+      time: "1 month ago",
+    },
+    {
+      text: "Kartono reviewed a product",
+      time: "2 months ago",
+    },
+  ],
+};
