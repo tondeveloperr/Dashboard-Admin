@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import { Home, Login, Products, Users } from "./pages";
+import { Home, Login, Product, Products, User, Users } from "./pages";
 import { Footer, Menu, Navbar } from "./components";
 import "./styles/global.scss";
 
@@ -39,6 +39,14 @@ function App() {
         {
           path: "/products",
           element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
         },
       ],
     },
